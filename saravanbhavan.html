@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <script src="resources/js/script.js"></script>
+    <link href="resources/css/items.css" type="text/css" rel="stylesheet">
+    <link href="vendors/css/grid.css" type="text/css" rel="stylesheet">
+   <!-- <link href="vendors/css/normalize.css" type="text/css" rel="stylesheet"> -->
+    <link href="vendors/css/ionicons.min.css" type="text/css" rel="stylesheet">
+    <link href="resources/css/quries.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+    <div class='row'>
+        <div class='logo'>
+        <img src="resources/img/logo.png" alt="logo"/>
+        </div>
+        <div class='title'>
+        <p  onclick='navtomain()'>getfood</p>
+        </div>
+        <div class='col span-2-of-3 search-box'>
+        <select class='places' id='cities'>
+            <option disabled>cities</option>
+            <option selected>Chennai</option>
+            <option>Banglore</option>
+            <option>Mumbai</option>
+            </select>
+        <div class='search-txt'>
+            <input type="text" placeholder="Enter your location"/>
+            </div>
+        <div class='find'>
+            <button type="button" class="btn" onclick='sele()'>search</button>
+            </div>
+        </div>
+         </div>
+     </header>
+    <section class="fitems">
+
+    <div class='row h-name'>
+        <h1>Saravana Bhavan</h1>
+        <div class='cart-box'>
+            <div class='ctxt'>
+               <p>cart</p>
+            </div>
+            <div class='citems'>
+                <p id='' class='cnum'>0</p>
+            </div>
+        </div>
+        </div>
+    <div class='row row-1'>
+            <div class='col span-1-of-3 container'>
+                <div class='con-left'>
+                <img src="resources/img/Saravana%20Bhavan.jpg" alt='Saravana bhavan'>
+                </div>
+                <div class='con-right'>
+                <h2>Idly(5)</h2>
+                <p class='dec'>price:</p>
+                </div>
+                <div class='con-right-bottom'>
+                <a href='' class='btn fav-food-btn'>Order Now!!</a>
+                </div>
+                </div>
+            <div class='col span-1-of-3 container'>
+                <div class='con-left'>
+                <img class='images' src="resources/img/Aryaas.JPG" alt='Aryaas'>
+                </div>
+                <div class='con-right'>
+                <h2>Plain Dosa(1)</h2>
+                <p class='dec'>North Indian,south Indian</p>
+                </div>
+                <div class='con-right-bottom'>
+                <a href='' class='btn fav-food-btn'>Order Now!!</a>
+                </div>
+                </div>
+        <div class='col span-1-of-3 container'>
+                <div class='con-left'>
+                <img class='images' src="resources/img/Aryaas.JPG" alt='Aryaas'>
+                </div>
+                <div class='con-right'>
+                <h2>Puri(2)</h2>
+                <p class='dec'>North Indian,south Indian</p>
+                </div>
+                <div class='con-right-bottom'>
+                <a href='' class='btn fav-food-btn'>Order Now!!</a>
+                </div>
+                </div>
+                 </div>
+    </section>
+
+
+    </body>
+</html>

@@ -1,0 +1,54 @@
+@media only screen and (max-width:1200px){
+    .search_box{
+        width: 70%;
+        padding: 0 2%;
+    }
+    .head{
+        padding: 10px 2%;
+    }
+
+    .how-it-works{
+        padding: 40px 30px;
+    }
+    .row{
+        width: 100%;
+    }
+    .foot-nav  li{
+        padding: 6px 15px;
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width:1023px){
+    html{ font-size: 17px; }
+
+    .logo{  height:80px; }
+
+    .head{  padding: 10px 2%; }
+
+    .foot-nav li{ padding:6px 5px; }
+
+    .f-right li{ padding: 6px 15px; }
+}
+@media only screen and (max-width:767px){
+
+}
+@media only screen and (max-width:480px){
+    html,section{font-size: 15px;}
+    .title{  margin-top: 10px; }
+
+    .search_txt{
+        width: 100%;
+        margin-bottom: 2%;
+    }
+    .login{display: none;}
+    .find{
+        width:100%;
+    text-align: center;
+    }
+    .foot-nav li{
+        float: none;
+    }
+    .f-right{
+        float: none;
+    }
+}

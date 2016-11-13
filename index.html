@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <script src="resources/js/script.js"></script>
+    <link href="resources/css/style.css" type="text/css" rel="stylesheet">
+    <link href="vendors/css/grid.css" type="text/css" rel="stylesheet">
+   <!-- <link href="vendors/css/normalize.css" type="text/css" rel="stylesheet"> -->
+    <link href="vendors/css/ionicons.min.css" type="text/css" rel="stylesheet">
+    <link href="resources/css/quries.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400" rel="stylesheet">
+</head>
+<body>
+    <header>
+    <div class='row head'>
+        <img class='logo' src='resources/img/logo.png' alt='getfood_logo'/>
+        <p class='title'>getFood</p>
+            <div class='login'>
+        <a  class='btn' href="">Login</a>
+        <a  class='btn' href="">SignUp</a>
+        </div>
+        </div>
+        <div class='search_box'>
+        <h1>Hungry!! Find Us...</h1>
+        <select class="cities" id="cities" >
+            <option disabled >Cities</option>
+            <option value='chennai'>Chennai</option>
+            <option value='banglore'>Banglore</option>
+            <option value='mumbai'>Mumbai</option>
+            </select>
+        <input type="search" class="search_txt" placeholder="Enter your location"/>
+        <button class='btn find' onclick="sele()">search</button>
+        </div>
+    </header>
+    <section class="how-it-works">
+   <div class="row">
+        <h2>How its Works</h2>
+        </div>
+    <div class="row">
+        <div class="col span-1-of-3">
+        <i class="ion-android-restaurant icons"></i>
+        <p>select the restaurant</p>
+        </div>
+
+        <div class="col span-1-of-3">
+        <i class="ion-pizza icons"></i>
+        <p>choose your favourite food</p>
+        </div>
+
+        <div class="col span-1-of-3">
+        <i class="ion-ios-cart-outline icons"></i>
+        <p>Get at your doorstep</p>
+        </div>
+        </div>
+
+    </section>
+    <section class='contact-us'>
+        <div class='row'>
+        <h2>Contact Us</h2>
+        </div>
+        <div class="row">
+            <form method="post" action="#" class="contact-form">
+            <div class='in-row'>
+        <div class='col span-1-of-3'>
+            <label>Name</label>
+            </div>
+        <div class='col span-2-of-3'>
+            <input type="text"  id='name' class="name" required>
+            </div>
+                </div>
+        <div class='in-row'>
+        <div class='col span-1-of-3'>
+            <label>E-mail</label>
+            </div>
+        <div class='col span-2-of-3'>
+            <input type="email"  id='email' class="email" required>
+            </div>
+                </div>
+        <div class='in-row'>
+        <div class='col span-1-of-3'>
+            <label>comment</label>
+            </div>
+        <div class='col span-2-of-3'>
+            <textarea type="text" name='message' id='textbox'></textarea>
+            </div>
+                </div>
+            <div class='in-row'>
+        <div class='col span-1-of-3'>
+            <label>&nbsp;</label>
+            </div>
+        <div class='col span-2-of-3'>
+            <input type="submit"  value='send'>
+            </div>
+                </div>
+       </form>
+        </div>
+    </section>
+    <footer>
+    <div class='row'>
+        <div class='col span-1-of-2'>
+        <ul class="foot-nav f-left">
+            <li><a href=''>About Us</a></li>
+            <li><a href=''>Terms and conditions</a></li>
+            <li><a href=''>privacy policy</a></li>
+            </ul>
+        </div>
+        <div class='col span-1-of-2'>
+            <ul class='foot-nav f-right'>
+                <li><a href=""><i class='ion-social-facebook'></i></a></li>
+                <li><a href=""><i class='ion-social-googleplus'></i></a></li>
+                <li><a href=""><i class='ion-social-twitter'></i></a></li>
+            </ul>
+        </div>
+        </div>
+        <div class="row">
+        <p class='copy'>&copy;copyright 2016.All right reserved</p>
+        </div>
+    </footer>
+           </body>
+
+</html>

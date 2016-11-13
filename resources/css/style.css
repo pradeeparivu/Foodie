@@ -1,0 +1,204 @@
+/* ---------------------- */
+/* Basic components */
+/* ---------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway','Arial', sans-serif;
+    font-weight:300;
+
+}
+
+html{
+    background-color: #fff;
+    font-size: 20px;
+    font-family: 'Raleway','Arial', sans-serif;
+    font-weight:300;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+section{
+    font-family: 'Raleway','Arial', sans-serif;
+    font-size: 80%;
+    font-weight:300;
+    text-rendering: optimizeLegibility;
+}
+.row{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+section{
+    padding: 40px 0;
+}
+/*  green-color:#80ca00; */
+
+/* ---------------------- */
+/* Buttons */
+/* ---------------------- */
+.btn:link,
+.btn:visited,
+button,
+input[type=submit]{
+    display: inline-block;
+    padding: 5px 20px;
+    margin-right: 2px;
+    border-radius: 10px;
+    color:#fff;
+    font-size: 80%;
+     background:#80ca00;
+    transition:background 0.3s;
+  text-decoration: none;
+    cursor: pointer;
+}
+button{
+    border: none;
+}
+.btn:hover,
+.btn:active,
+button,
+input[type=submit]{
+    background: #74b406;
+
+}
+
+/* ---------------------- */
+/* Header */
+/* ---------------------- */
+
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.72),rgba(0, 0, 0, 0.72)),url(img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h1{
+    color: #fff;
+    font-size: 240%;
+    font-weight:300;
+    margin-bottom: 10px;
+}
+
+.head{
+    padding-top:10px;
+}
+
+.logo{
+    height: 100px;
+    width: auto;
+    float: left;
+}
+
+.title{
+    float: left;
+    margin-top: 30px;
+    color: #80ca00;
+    font-size: 200%;
+}
+
+.login{
+    float: right;
+}
+.cities{
+display: inline-block;
+font-size: 90%;
+padding: 3px 0;
+border-radius: 3px;
+}
+.search_box{
+    position: absolute;
+    width: 800px;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%,-60%);
+}
+
+.search_txt{
+    display: inline-block;
+    border: none;
+    width:60%;
+    padding: 5px 5px;
+    border-radius: 5px;
+    font-size: 80%;
+}
+/* ---------------------- */
+/* how-it-wors */
+/* ---------------------- */
+.how-it-works{
+    background: #f0eeee;
+}
+
+h2{
+text-align: center;
+margin-bottom: 30px;
+}
+
+h2:after{
+    display: block;
+    content: "";
+    height:2px;
+    width:60px;
+    background: #80ca00;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+
+.icons{
+        color: #80ca00;
+        font-size: 200%;
+}
+
+/* ---------------------- */
+/* Contact-us */
+/* ---------------------- */
+
+.contact-form{
+    width:50%;
+    margin: 0 auto;
+}
+.in-row{
+    width: 100%;
+}
+input[type=text],
+input[type=email],
+textarea{
+    width: 100%;
+    padding: 5px;
+}
+
+/* ---------------------- */
+/* footer */
+/* ---------------------- */
+
+footer{
+ background: #403e3e;
+}
+.foot-nav  li{
+    display: inline-block;
+    list-style-type: none;
+    float: left;
+    padding: 6px 15px;
+}
+.foot-nav li a{transition: border-bottom 0.5s;}
+.foot-nav li a:hover{
+    padding-bottom:3px;
+    border-bottom: 1px solid #80ca00;
+
+}
+.f-right{
+    float: right;
+}
+.foot-nav a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.copy{
+    padding-top: 5px;
+    text-align: center;
+}
