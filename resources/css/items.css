@@ -195,3 +195,35 @@ h2{
     color:#868686;
     border-bottom: 1px solid #868686;
 }
+
+/* --------------------- */
+/* footer */
+/* --------------------- */
+
+footer{
+ background: #403e3e;
+}
+.foot-nav  li{
+    display: inline-block;
+    list-style-type: none;
+    float: left;
+    padding: 6px 15px;
+}
+.foot-nav li a{transition: border-bottom 0.5s;}
+.foot-nav li a:hover{
+    padding-bottom:3px;
+    border-bottom: 1px solid #80ca00;
+
+}
+.f-right{
+    float: right;
+}
+.foot-nav a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.copy{
+    padding-top: 5px;
+    text-align: center;
+}

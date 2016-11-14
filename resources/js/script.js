@@ -9,3 +9,8 @@ function sele(){
 function navtomain(){
         window.location.href='index.html';
     }
+
+function res(restname){
+
+    window.location.href=restname.value + ".html";
+}

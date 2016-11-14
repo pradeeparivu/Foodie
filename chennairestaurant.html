@@ -1,18 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 <head>
-    <link rel="stylesheet" type="text/css" href="resources/css/restaurant.css">
-    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
-    <!--<link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">-->
-    <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400" rel="stylesheet">
-    </head>
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
     <script src="resources/js/script.js"></script>
+    <link href="resources/css/items.css" type="text/css" rel="stylesheet">
+    <link href="vendors/css/grid.css" type="text/css" rel="stylesheet">
+   <!-- <link href="vendors/css/normalize.css" type="text/css" rel="stylesheet"> -->
+    <link href="vendors/css/ionicons.min.css" type="text/css" rel="stylesheet">
+    <link href="resources/css/quries.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400" rel="stylesheet">
+</head>
 <body>
+
     <header>
     <div class='row'>
         <div class='logo'>
-        <img onclick='navtomain()' src="resources/img/logo.png" alt="logo"/>
+        <img src="resources/img/logo.png" alt="logo"/>
         </div>
         <div class='title'>
         <p  onclick='navtomain()'>getfood</p>
@@ -33,91 +36,97 @@
         </div>
          </div>
      </header>
-        <section class='restaurant'>
-        <div class='row'>
-        <h1>Select the Restaurant</h1>
-            </div>
+    <section class="fitems">
 
-            <div class='row row-1'>
-            <div class='col span-1-of-2 container'>
+    <div class='row h-name'>
+        <h1>Chennai Restaurant</h1>
+        <div class='cart-box'>
+            <div class='ctxt'>
+               <p>cart</p>
+            </div>
+            <div class='citems'>
+                <p id='' class='cnum'>0</p>
+            </div>
+        </div>
+        </div>
+    <div class='row row-1'>
+            <div class='col span-1-of-3 container'>
                 <div class='con-left'>
                 <img src="resources/img/Saravana%20Bhavan.jpg" alt='Saravana bhavan'>
                 </div>
                 <div class='con-right'>
-                <h2>Saravana Bhavan</h2>
-                <p class='dec'>North Indian,south Indian</p>
+                <h2>Idly(5)</h2>
+                <p class='dec'>price: &#8377 35</p>
                 </div>
                 <div class='con-right-bottom'>
-                <button class='btn fav-food-btn' onclick='res(this)'  value='saravanabhavan'>Choose your Favourite Food</button>
+                <a href='' class='btn fav-food-btn'>Order Now!!</a>
                 </div>
                 </div>
-            <div class='col span-1-of-2 container'>
+            <div class='col span-1-of-3 container'>
                 <div class='con-left'>
                 <img class='images' src="resources/img/Aryaas.JPG" alt='Aryaas'>
                 </div>
                 <div class='con-right'>
-                <h2>Aryaas</h2>
-                <p class='dec'>North Indian,south Indian</p>
+                <h2>Plain Dosa(1)</h2>
+                <p class='dec'>price: &#8377 40</p>
                 </div>
                 <div class='con-right-bottom'>
-                <button  class='btn fav-food-btn' onclick='res(this)'  value='aryaas'>Choose your Favourite Food</button>
+                <a href='' class='btn fav-food-btn'>Order Now!!</a>
+                </div>
+                </div>
+        <div class='col span-1-of-3 container'>
+                <div class='con-left'>
+                <img class='images' src="resources/img/Aryaas.JPG" alt='Aryaas'>
+                </div>
+                <div class='con-right'>
+                <h2>Puri(2)</h2>
+                <p class='dec'>price: &#8377 30</p>
+                </div>
+                <div class='con-right-bottom'>
+                <a href='' class='btn fav-food-btn'>Order Now!!</a>
                 </div>
                 </div>
                  </div>
-<div class='row row-2'>
-            <div class='col span-1-of-2 container'>
+        <div class='row row-2'>
+            <div class='col span-1-of-3 container'>
                 <div class='con-left'>
-                <img src="resources/img/Southern%20Highway.jpg" alt='Southern Highway'>
+                <img src="resources/img/Saravana%20Bhavan.jpg" alt='Saravana bhavan'>
                 </div>
                 <div class='con-right'>
-                <h2>Southern Highway</h2>
-                <p class='dec'>North Indian,south Indian</p>
+                <h2>Masaldosa(1)</h2>
+                <p class='dec'>price: &#8377 45</p>
                 </div>
                 <div class='con-right-bottom'>
-                <button class='btn fav-food-btn' onclick='res(this)' value='southernhighway' >Choose your Favourite Food</button>
+                <a href='s' class='btn fav-food-btn'>Order Now!!</a>
                 </div>
                 </div>
-            <div class='col span-1-of-2 container'>
+            <div class='col span-1-of-3 container'>
                 <div class='con-left'>
-                <img class='images' src="resources/img/Chennai%20Restaurant.jpg" alt='Chennai Restaurant'>
+                <img class='images' src="resources/img/Aryaas.JPG" alt='Aryaas'>
                 </div>
                 <div class='con-right'>
-                <h2>Chennai Restaurant</h2>
-                <p class='dec'>North Indian,south Indian</p>
+                <h2>pongal(1)</h2>
+                <p class='dec'>price: &#8377 35</p>
                 </div>
                 <div class='con-right-bottom'>
-                <button class='btn fav-food-btn' onclick='res(this)' value='chennairestaurant'>Choose your Favourite Food</button>
+                <a href='' class='btn fav-food-btn'>Order Now!!</a>
+                </div>
+                </div>
+        <div class='col span-1-of-3 container'>
+                <div class='con-left'>
+                <img class='images' src="resources/img/Aryaas.JPG" alt='Aryaas'>
+                </div>
+                <div class='con-right'>
+                <h2>vadaai(2)</h2>
+                <p class='dec'>price: &#8377 30</p>
+                </div>
+                <div class='con-right-bottom'>
+                <a href='' class='btn fav-food-btn'>Order Now!!</a>
                 </div>
                 </div>
                  </div>
-<div class='row row-3'>
-            <div class='col span-1-of-2 container'>
-                <div class='con-left'>
-                <img src="resources/img/New%20Yorker.jpg" alt='New Yorker'>
-                </div>
-                <div class='con-right'>
-                <h2>New Yorker</h2>
-                <p class='dec'>North Indian,south Indian</p>
-                </div>
-                <div class='con-right-bottom'>
-                <button class='btn fav-food-btn' onclick='res(this)' value='newyorker'>Choose your Favourite Food</button>
-                </div>
-                </div>
-            <div class='col span-1-of-2 container'>
-                <div class='con-left'>
-                <img class='images' src="resources/img/Rain%20Tree.jpg" alt='Rain Tree'>
-                </div>
-                <div class='con-right'>
-                <h2>The RainTree</h2>
-                <p class='dec'>North Indian,south Indian</p>
-                </div>
-                <div class='con-right-bottom'>
-                <button class='btn fav-food-btn' onclick='res(this)' value='raintree'>Choose your Favourite Food</button>
-                </div>
-                </div>
-                 </div>
-        </section>
-    <footer>
+    </section>
+<footer>
     <div class='row'>
         <div class='col span-1-of-2'>
         <ul class="foot-nav f-left">
@@ -138,10 +147,5 @@
         <p class='copy'>&copy;copyright 2016.All right reserved</p>
         </div>
     </footer>
-
-
-
-
     </body>
-
 </html>
